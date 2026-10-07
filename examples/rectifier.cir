@@ -1,0 +1,8 @@
+Half-wave rectifier with smoothing capacitor
+V1 in 0 sin(0 10 60)
+D1 in out dmod
+C1 out 0 100u
+R1 out 0 1k
+.model dmod d(is=1e-14 n=1)
+.tran 20u 50m
+.end

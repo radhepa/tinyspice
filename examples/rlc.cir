@@ -1,0 +1,7 @@
+Series RLC, underdamped step response (f0 = 5.03 kHz, zeta = 0.1)
+V1 in 0 pulse(0 1 0 1n 1n 10 20)
+R1 in a 20
+L1 a out 10m
+C1 out 0 100n
+.tran 1u 2m
+.end

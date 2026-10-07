@@ -1,0 +1,6 @@
+RC low-pass, 1 V step (tau = 1 ms)
+V1 in 0 pulse(0 1 0 1n 1n 10 20)
+R1 in out 1k
+C1 out 0 1u
+.tran 10u 5m
+.end

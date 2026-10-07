@@ -1,0 +1,6 @@
+Voltage divider with a current source (DC operating point)
+V1 in 0 dc 10
+R1 in mid 1k
+R2 mid 0 3k
+I1 0 mid 1m   ; 1 mA pushed into node mid
+.end

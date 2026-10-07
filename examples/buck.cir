@@ -1,0 +1,12 @@
+Buck converter (non-synchronous) 48 V -> 12 V, 100 kHz
+Vin in 0 dc 48
+Vg g 0 pulse(0 5 0 10n 10n 2.49u 10u)
+S1 in sw g 0 smod
+D1 0 sw dmod
+L1 sw out 47u
+C1 out 0 47u
+Rload out 0 2.4
+.model smod sw(ron=10m roff=1meg vt=2.5)
+.model dmod d(is=1e-9 n=1.5)
+.tran 50n 2m
+.end
